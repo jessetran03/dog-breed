@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dog Generator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div>
+        <h1>Random Dog Image Generator</h1>
+        <form> 
+            <h2>Please enter the breed of a dog image to be generated.</h2>
+            <label for="breed">Breed:</label>
+            <input id="breed" type="text" name="breed" autofocus placeholder="Enter breed here" maxlength="20" />
+            <br>
+            <br>
+            <input type="submit" value="Generate!">
+        </form>
+        <div class="results">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
